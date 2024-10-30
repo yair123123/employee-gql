@@ -91,6 +91,8 @@ class DeleteJob(Mutation):
                 return DeleteJob(success=False, message=str(e))
 
 
+
+
 class UpdateEmployee(Mutation):
     class Arguments:
         id = Int()
